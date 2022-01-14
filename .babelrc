@@ -3,7 +3,7 @@
     ["@babel/preset-env", { "targets": { "node": "8" } }]],
   "plugins": [
     ["@babel/plugin-proposal-class-properties"],
-    ["@babel/plugin-transform-react-jsx", { runtime: 'automatic', importSource: 'preact' }],
+    ["@babel/plugin-transform-react-jsx", { "runtime": "automatic", "importSource": "preact" }],
     ["@babel/plugin-transform-modules-commonjs", {"allowTopLevelThis": true}]
   ]
 }
